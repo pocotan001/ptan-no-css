@@ -1,0 +1,82 @@
+/* modal.css - component
+====================================================================== */
+
+/* Examples
+-------------------- */
+
+/* ```
+<div class="modal is-invisible">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+        <p>コンテンツ</p>
+        <a href="javascript:;" class="modal__close">x</a>
+    </div><!-- /.modal__content -->
+</div><!-- /.modal -->
+``` */
+
+/* Modal container
+-------------------- */
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    min-width: 600px;
+    text-align: center;
+}
+
+.modal:after {
+    display: inline-block;
+    margin-right: -.25em; /* Adjusts for spacing */
+    height: 100%;
+    content: "";
+    vertical-align: middle;
+}
+
+/* States */
+
+.modal.is-invisible .modal__content {
+    opacity: 0;
+    transform: scale(.7);
+}
+
+/* Modal overlay
+-------------------- */
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+}
+
+/* Modal content
+-------------------- */
+
+.modal__content {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 500px;
+    border-radius: 3px;
+    background: #222;
+    color: #fff;
+    vertical-align: middle;
+    transition: all .15s;
+    transform: scale(1);
+}
+
+/* Modal close
+-------------------- */
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    line-height: 1;
+    cursor: pointer;
+}

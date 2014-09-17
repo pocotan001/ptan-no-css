@@ -1,0 +1,19 @@
+{
+  "name": "ptan-no-css",
+  "version": "0.0.0",
+  "devDependencies": {
+    "gulp": "3.8.x",
+    "gulp-autoprefixer": "0.0.x",
+    "gulp-concat": "2.1.x",
+    "gulp-csslint": "0.1.x",
+    "gulp-cssmin": "0.1.x",
+    "gulp-header": "1.0.x",
+    "gulp-if": "1.2.x",
+    "gulp-myth": "0.3.x",
+    "minimist": "0.1.x",
+    "require-dir": "0.1.x"
+  },
+  "scripts": {
+    "build": "gulp build --production"
+  }
+}

@@ -1,0 +1,13 @@
+/* text-truncate.css - utility
+====================================================================== */
+
+/* Text truncation
+-------------------- */
+
+.u-tt {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal; /* for IE 8/9 */
+}

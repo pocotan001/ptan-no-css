@@ -1,0 +1,87 @@
+/* grid.css - component
+====================================================================== */
+
+/* Examples
+-------------------- */
+
+/* ```
+<div class="grid">
+    <div class="grid__cell">
+        <p style="background: #aaa; padding: 30px;">1</p>
+    </div><!-- /.grid__cell -->
+    <div class="grid__cell">
+        <p style="background: #aaa; padding: 20px;">2</p>
+    </div><!-- /.grid__cell -->
+</div><!-- /.grid -->
+``` */
+
+/* Container
+-------------------- */
+
+.grid {
+    display: block;
+    text-align: justify;
+    text-justify: distribute-all-lines; /* for IE 9 */
+    font-size: 0;
+}
+
+.grid:after {
+    display: inline-block;
+    width: 100%;
+    content: "";
+}
+
+/* Horizontal alignment */
+
+.grid--left {
+    text-align: left;
+    text-justify: auto; /* for IE 9 */
+}
+
+.grid--center {
+    text-align: center;
+    text-justify: auto; /* for IE 9 */
+}
+
+.grid--right {
+    text-align: right;
+    text-justify: auto; /* for IE 9 */
+}
+
+/* Cell
+-------------------- */
+
+.grid__cell {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+    text-justify: auto; /* for IE 9 */
+    font-size: var(--font-size-base); /* Reset font size */
+}
+
+/* Horizontal alignment */
+
+.grid__cell--center {
+    text-align: center;
+}
+
+.grid__cell--right {
+    text-align: right;
+}
+
+/* Vertical alignment */
+
+.grid__cell--middle {
+    vertical-align: middle;
+}
+
+.grid__cell--bottom {
+    vertical-align: bottom;
+}
+
+/* Sizes */
+
+.grid__cell--full {
+    width: 100%;
+}

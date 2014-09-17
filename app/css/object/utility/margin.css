@@ -1,0 +1,45 @@
+/* margin.css - utility
+====================================================================== */
+
+/* Margin
+-------------------- */
+
+/* Top margin */
+
+.u-mt-0 { margin-top: 0 !important; }
+.u-mt-5 { margin-top: 5px !important; }
+.u-mt-10 { margin-top: 10px !important; }
+.u-mt-15 { margin-top: 15px !important; }
+.u-mt-20 { margin-top: 20px !important; }
+.u-mt-25 { margin-top: 25px !important; }
+.u-mt-30 { margin-top: 30px !important; }
+
+/* Right margin */
+
+.u-mr-0 { margin-right: 0 !important; }
+.u-mr-5 { margin-right: 5px !important; }
+.u-mr-10 { margin-right: 10px !important; }
+.u-mr-15 { margin-right: 15px !important; }
+.u-mr-20 { margin-right: 20px !important; }
+.u-mr-25 { margin-right: 25px !important; }
+.u-mr-30 { margin-right: 30px !important; }
+
+/* Bottom margin */
+
+.u-mb-0 { margin-bottom: 0 !important; }
+.u-mb-5 { margin-bottom: 5px !important; }
+.u-mb-10 { margin-bottom: 10px !important; }
+.u-mb-15 { margin-bottom: 15px !important; }
+.u-mb-20 { margin-bottom: 20px !important; }
+.u-mb-25 { margin-bottom: 25px !important; }
+.u-mb-30 { margin-bottom: 30px !important; }
+
+/* Left margin */
+
+.u-ml-0 { margin-left: 0 !important; }
+.u-ml-5 { margin-left: 5px !important; }
+.u-ml-10 { margin-left: 10px !important; }
+.u-ml-15 { margin-left: 15px !important; }
+.u-ml-20 { margin-left: 20px !important; }
+.u-ml-25 { margin-left: 25px !important; }
+.u-ml-30 { margin-left: 30px !important; }

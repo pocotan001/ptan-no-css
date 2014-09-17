@@ -1,0 +1,17 @@
+{
+  "adjoining-classes": false,
+  "box-sizing": false,
+  "compatible-vendor-prefixes": false,
+  "empty-rules": false,
+  "fallback-colors": false,
+  "floats": false,
+  "font-sizes": false,
+  "ids": false,
+  "important": false,
+  "known-properties": false,
+  "selector-max": false,
+  "selector-max-approaching": false,
+  "text-indent": false,
+  "unique-headings": false,
+  "unqualified-attributes": false
+}

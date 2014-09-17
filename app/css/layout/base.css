@@ -1,0 +1,50 @@
+/* base.css - layout
+====================================================================== */
+
+/* Examples
+-------------------- */
+
+/* ```
+<div id="container">
+    <header id="header"></header>
+    <div id="body">
+        <main id="main">
+            ...
+        </main>
+        <div id="sidebar">
+            ...
+        </div><!-- /#sidebar -->
+    </div><!-- /#body -->
+    <footer id="footer"></footer>
+</div><!-- /#container -->
+``` */
+
+/* Container
+-------------------- */
+
+#container { }
+
+/* Header
+-------------------- */
+
+#header { }
+
+/* Body
+-------------------- */
+
+#body { }
+
+/* Main
+-------------------- */
+
+#main { }
+
+/* Sidebar
+-------------------- */
+
+#sidebar { }
+
+/* Footer
+-------------------- */
+
+#footer { }

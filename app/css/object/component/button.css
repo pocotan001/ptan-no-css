@@ -1,0 +1,73 @@
+/* button.css - component
+====================================================================== */
+
+/* Examples
+-------------------- */
+
+/* ```
+<a class="button" href="{url}">ボタン</a>
+``` */
+
+/* Button
+-------------------- */
+
+.button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: .8em 1.5em;
+    border: none;
+    color: inherit;
+    vertical-align: middle;
+    text-align: center;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Colors */
+
+.button--tomato {
+    background: tomato;
+    color: #fff;
+}
+
+/* Sizes */
+
+.button--x-small {
+    font-size: var(--font-size-x-small);
+}
+
+.button--small {
+    font-size: var(--font-size-small);
+}
+
+.button--medium {
+    font-size: var(--font-size-medium);
+}
+
+.button--large {
+    font-size: var(--font-size-large);
+}
+
+.button--x-large {
+    font-size: var(--font-size-x-large);
+}
+
+.button--full {
+    display: block;
+    width: 100%;
+}
+
+/* States */
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button:disabled,
+.button.is-disabled {
+    opacity: .6;
+    cursor: default;
+    pointer-events: none;
+}
