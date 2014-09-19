@@ -5,11 +5,10 @@
 -------------------- */
 
 /* ```
-<div class="modal is-invisible">
+<div class="modal">
     <div class="modal__overlay"></div>
     <div class="modal__content">
-        <p>コンテンツ</p>
-        <a href="javascript:;" class="modal__close">x</a>
+        <p>Content</p>
     </div><!-- /.modal__content -->
 </div><!-- /.modal -->
 ``` */
@@ -38,9 +37,8 @@
 
 /* States */
 
-.modal.is-invisible .modal__content {
-    opacity: 0;
-    transform: scale(.7);
+.modal.is-invisible {
+    visibility: hidden;
 }
 
 /* Modal overlay
@@ -70,13 +68,9 @@
     transform: scale(1);
 }
 
-/* Modal close
--------------------- */
+/* States */
 
-.modal__close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    line-height: 1;
-    cursor: pointer;
+.modal.is-invisible .modal__content {
+    opacity: 0;
+    transform: scale(.7);
 }

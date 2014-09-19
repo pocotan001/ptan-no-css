@@ -13,7 +13,6 @@
 
     --color-base: #333;
     --color-tomato: tomato;
-    --color-thin-tomato: color(var(--color-tomato) tint(20%));
 
     /* Link colors
     -------------------- */
@@ -29,12 +28,6 @@
     -------------------- */
 
     --font-size-base: 14px;
-    --font-size-x-small: 10px;
-    --font-size-small: 12px;
-    --font-size-medium: var(--font-size-base);
-    --font-size-large: 16px;
-    --font-size-x-large: 18px;
-    --font-size-xx-large: 20px;
 
     /* Font Families
     -------------------- */

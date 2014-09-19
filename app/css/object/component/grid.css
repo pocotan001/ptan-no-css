@@ -7,15 +7,15 @@
 /* ```
 <div class="grid">
     <div class="grid__cell">
-        <p style="background: #aaa; padding: 30px;">1</p>
+        <p style="background: tomato; padding: 40px;">A</p>
     </div><!-- /.grid__cell -->
     <div class="grid__cell">
-        <p style="background: #aaa; padding: 20px;">2</p>
+        <p style="background: tomato; padding: 20px;">B</p>
     </div><!-- /.grid__cell -->
 </div><!-- /.grid -->
 ``` */
 
-/* Container
+/* Grid container
 -------------------- */
 
 .grid {
@@ -48,7 +48,7 @@
     text-justify: auto; /* for IE 9 */
 }
 
-/* Cell
+/* Grid cell
 -------------------- */
 
 .grid__cell {

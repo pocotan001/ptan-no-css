@@ -5,7 +5,7 @@
 -------------------- */
 
 /* ```
-<a class="button" href="{url}">ボタン</a>
+<a class="button" href="{url}">Button</a>
 ``` */
 
 /* Button
@@ -28,31 +28,21 @@
 /* Colors */
 
 .button--tomato {
-    background: tomato;
+    background: var(--color-tomato);
     color: #fff;
 }
 
 /* Sizes */
 
-.button--x-small {
-    font-size: var(--font-size-x-small);
-}
+.button--x-small { }
 
-.button--small {
-    font-size: var(--font-size-small);
-}
+.button--small { }
 
-.button--medium {
-    font-size: var(--font-size-medium);
-}
+.button--medium { }
 
-.button--large {
-    font-size: var(--font-size-large);
-}
+.button--large { }
 
-.button--x-large {
-    font-size: var(--font-size-x-large);
-}
+.button--x-large { }
 
 .button--full {
     display: block;

@@ -1,10 +1,10 @@
 /* margin.css - utility
 ====================================================================== */
 
-/* Margin
+/* Margins
 -------------------- */
 
-/* Top margin */
+/* Top */
 
 .u-mt-0 { margin-top: 0 !important; }
 .u-mt-5 { margin-top: 5px !important; }
@@ -14,7 +14,7 @@
 .u-mt-25 { margin-top: 25px !important; }
 .u-mt-30 { margin-top: 30px !important; }
 
-/* Right margin */
+/* Right */
 
 .u-mr-0 { margin-right: 0 !important; }
 .u-mr-5 { margin-right: 5px !important; }
@@ -24,7 +24,7 @@
 .u-mr-25 { margin-right: 25px !important; }
 .u-mr-30 { margin-right: 30px !important; }
 
-/* Bottom margin */
+/* Bottom */
 
 .u-mb-0 { margin-bottom: 0 !important; }
 .u-mb-5 { margin-bottom: 5px !important; }
@@ -34,7 +34,7 @@
 .u-mb-25 { margin-bottom: 25px !important; }
 .u-mb-30 { margin-bottom: 30px !important; }
 
-/* Left margin */
+/* Left */
 
 .u-ml-0 { margin-left: 0 !important; }
 .u-ml-5 { margin-left: 5px !important; }
